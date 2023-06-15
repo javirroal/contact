@@ -1,0 +1,30 @@
+
+/*TABLET*/
+
+@media (max-width: 768px) {
+
+   #contact-a .text-fields {
+       grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+
+}
+
+/*SMARTPHONES*/
+@media only screen and (max-width:420px) {
+
+    .logo {
+        max-width: 4.2rem;
+    }
+}
+
+/* LANDSCAPE */
+@media (max-height: 500px) {
+
+    .header {
+        height: 7.5rem;
+    }
+
+    .success .text {
+        padding-top: 5rem;
+    }
+
+}
