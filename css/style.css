@@ -61,17 +61,21 @@
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name lastname' 'email phone' 'subject institution' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
     grid-area: name; }
-  #contact-a .text-fields .subject-input {
-    grid-area: subject; }
   #contact-a .text-fields .email-input {
     grid-area: email; }
+  #contact-a .text-fields .subject-input {
+    grid-area: subject; }
+  #contact-a .text-fields .lastname-input {
+    grid-area: lastname; }
   #contact-a .text-fields .phone-input {
     grid-area: phone; }
+  #contact-a .text-fields .institution-input {
+    grid-area: institution; }
   #contact-a .text-fields .message-input {
     grid-area: message;
     height: 100px; }

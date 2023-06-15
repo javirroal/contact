@@ -4,7 +4,7 @@
 @media (max-width: 768px) {
 
    #contact-a .text-fields {
-       grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+       grid-template-areas: 'name' 'lastname' 'email' 'phone' 'subject' 'institution' 'message'; }
 
 }
 
