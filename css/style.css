@@ -86,7 +86,12 @@
 }
 
 .my-2 {
-    margin: 2rem 0; }
+    margin: 2rem 0; 
+  }
+
+  #contact-a .text-fields .d-none {
+    display: none;
+  }
 
 
 /*SUCCESS PAGE*/
